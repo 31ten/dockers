@@ -1,0 +1,16 @@
+server {
+    listen   80;
+    root /home/app;
+
+    location / {
+            autoindex on;
+            expires off;
+            sendfile  off;
+            try_files $uri $uri/ /index.php$is_args$args index.html;
+            proxy_max_temp_file_size 0;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}

@@ -1,0 +1,59 @@
+2017/09/11 10:01:26 [error] 5#5: *2 open() "/home/appindex.html" failed (2: No such file or directory), client: 192.168.99.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.100:8888", referrer: "http://192.168.99.100:8888/"
+2017/09/12 04:18:44 [error] 5#5: *2 open() "/home/appindex.html" failed (2: No such file or directory), client: 192.168.99.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.100:8888", referrer: "http://192.168.99.100:8888/"
+2017/09/12 08:55:58 [emerg] 1#1: "server_tokens" directive is duplicate in /etc/nginx/conf.d/basic.conf:2
+2017/09/12 08:56:47 [emerg] 1#1: "server_tokens" directive is duplicate in /etc/nginx/conf.d/basic.conf:2
+2017/09/12 08:56:50 [emerg] 1#1: "server_tokens" directive is duplicate in /etc/nginx/conf.d/basic.conf:2
+2017/09/12 09:10:25 [emerg] 1#1: "server_tokens" directive is duplicate in /etc/nginx/conf.d/basic.conf:2
+2017/09/12 09:10:36 [emerg] 1#1: "server_tokens" directive is duplicate in /etc/nginx/conf.d/basic.conf:2
+2017/09/12 10:23:06 [error] 9#9: *1 open() "/home/appindex.html" failed (2: No such file or directory), client: 192.168.99.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.100:8888", referrer: "http://192.168.99.100:8888/"
+2017/09/12 10:26:46 [emerg] 1#1: invalid parameter "80" in /etc/nginx/sites-available/site.default:2
+2017/09/12 10:26:57 [emerg] 1#1: invalid parameter "80" in /etc/nginx/sites-available/site.default:2
+2017/09/12 10:27:14 [emerg] 1#1: invalid parameter "80" in /etc/nginx/sites-available/site.default:2
+2017/09/12 10:28:59 [error] 11#11: *3 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:28:59 [error] 11#11: *4 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:02 [error] 9#9: *5 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:02 [error] 9#9: *6 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:09 [error] 10#10: *7 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:09 [error] 10#10: *8 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:09 [error] 12#12: *9 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:10 [error] 11#11: *10 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:12 [error] 12#12: *11 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:12 [error] 12#12: *12 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:16 [error] 10#10: *14 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:16 [error] 10#10: *15 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:17 [error] 11#11: *16 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:17 [error] 11#11: *17 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:23 [error] 12#12: *18 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:23 [error] 12#12: *19 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:23 [error] 9#9: *20 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:25 [error] 11#11: *21 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:25 [error] 11#11: *22 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:25 [error] 10#10: *23 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:26 [error] 9#9: *24 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:26 [error] 12#12: *25 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:26 [error] 10#10: *26 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:26 [error] 9#9: *27 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:27 [error] 11#11: *28 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:27 [error] 11#11: *29 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:27 [error] 12#12: *30 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:27 [error] 10#10: *31 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:34 [error] 12#12: *32 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:34 [error] 10#10: *33 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:34 [error] 9#9: *34 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:29:39 [error] 11#11: *35 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/09/12 10:30:21 [error] 9#9: *2 open() "/home/appindex.html" failed (2: No such file or directory), client: 192.168.99.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2017/09/12 10:30:23 [error] 10#10: *4 open() "/home/appindex.html" failed (2: No such file or directory), client: 192.168.99.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.100:443", referrer: "http://192.168.99.100:443/"
+2017/10/15 06:18:26 [alert] 12#12: *7 ignoring stale global SSL error (SSL: error:1408518A:SSL routines:ssl3_ctx_ctrl:dh key too small) while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/10/15 06:18:26 [alert] 10#10: *6 ignoring stale global SSL error (SSL: error:1408518A:SSL routines:ssl3_ctx_ctrl:dh key too small) while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/10/15 06:18:30 [alert] 9#9: *8 ignoring stale global SSL error (SSL: error:1408518A:SSL routines:ssl3_ctx_ctrl:dh key too small) while SSL handshaking, client: 192.168.99.1, server: 0.0.0.0:443
+2017/10/15 06:18:31 [error] 9#9: *8 open() "/home/appindex.html" failed (2: No such file or directory), client: 192.168.99.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.100", referrer: "https://192.168.99.100/"
+2017/10/15 06:18:50 [alert] 11#11: *11 ignoring stale global SSL error (SSL: error:1408518A:SSL routines:ssl3_ctx_ctrl:dh key too small) while SSL handshaking, client: 10.0.2.2, server: 0.0.0.0:443
+2017/10/15 06:18:51 [error] 11#11: *11 open() "/home/appindex.html" failed (2: No such file or directory), client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.9", referrer: "https://192.168.1.9/"
+2017/10/15 06:20:37 [error] 9#9: *25 open() "/home/appindex.html" failed (2: No such file or directory), client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.9", referrer: "http://192.168.1.9/"
+2017/10/15 06:20:38 [error] 9#9: *25 open() "/home/appindex.html" failed (2: No such file or directory), client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.9", referrer: "http://192.168.1.9/"
+2017/10/15 06:33:09 [error] 9#9: *48 open() "/home/appindex.html" failed (2: No such file or directory), client: 10.0.2.2, server: , request: "GET /html/tests/gresillementios/wmdf.mp4 HTTP/1.1", host: "192.168.1.9", referrer: "https://192.168.1.9/html/tests/gresillementios/"
+2017/10/15 06:35:40 [error] 10#10: *70 open() "/home/appindex.html" failed (2: No such file or directory), client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.137.1", referrer: "http://192.168.137.1/html/tests/gresillementios/"
+2017/10/15 08:34:45 [error] 10#10: *526 open() "/home/appindex.html" failed (2: No such file or directory), client: 10.0.2.2, server: , request: "GET /HNAP1/ HTTP/1.1", host: "192.168.137.1"
+2017/10/15 08:34:46 [error] 11#11: *527 open() "/home/appindex.html" failed (2: No such file or directory), client: 10.0.2.2, server: , request: "GET /HNAP1/ HTTP/1.1", host: "192.168.99.1"
+2017/10/15 08:34:47 [error] 9#9: *528 open() "/home/appindex.html" failed (2: No such file or directory), client: 10.0.2.2, server: , request: "GET /HNAP1/ HTTP/1.1", host: "192.168.56.1"
+2017/10/15 08:34:48 [error] 10#10: *529 open() "/home/appindex.html" failed (2: No such file or directory), client: 10.0.2.2, server: , request: "GET /HNAP1/ HTTP/1.1", host: "192.168.1.9"
